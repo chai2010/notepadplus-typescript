@@ -8,13 +8,13 @@
 		<!-- <parsers> -->
 			<parser id="typescript" displayName="typescript" commentExpr="((/\*.*?\*)/|(//.*?$))">
 				<classRange
-					mainExpr="^(export\s+)?class\s+\w+\s*\{"
+					mainExpr="^(export\s+)?(class|interface)\s+\w+\s*(extends\s+(\w|\s|,)*)?\{"
 					openSymbole = "\{"
 					closeSymbole = "\}"
 					displayMode="node">
 					<className>
-						<nameExpr expr="(export\s+)?class\s+\w+"/>
-						<nameExpr expr="class\s+\w+"/>
+						<nameExpr expr="(export\s+)?(class|interface)\s+\w+"/>
+						<nameExpr expr="(class|interface)\s+\w+"/>
 						<nameExpr expr="\s+\w+"/>
 						<nameExpr expr="\w+"/>
 					</className>
