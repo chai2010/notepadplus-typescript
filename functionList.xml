@@ -1,0 +1,42 @@
+<!-- <NotepadPlus> -->
+	<!-- <functionList> -->
+		<!-- <associationMap> -->
+
+			<association userDefinedLangName="typescript" id="typescript"/>
+
+		<!-- </associationMap> -->
+		<!-- <parsers> -->
+			<parser id="typescript" displayName="typescript" commentExpr="((/\*.*?\*)/|(//.*?$))">
+				<classRange
+					mainExpr="^(export\s+)?class\s+\w+\s*\{"
+					openSymbole = "\{"
+					closeSymbole = "\}"
+					displayMode="node">
+					<className>
+						<nameExpr expr="(export\s+)?class\s+\w+"/>
+						<nameExpr expr="class\s+\w+"/>
+						<nameExpr expr="\s+\w+"/>
+						<nameExpr expr="\w+"/>
+					</className>
+					<function
+						mainExpr="^\s*\w+\s*(\(|:|=)">
+						<functionName>
+							<funcNameExpr expr="\s*\w+"/>
+							<funcNameExpr expr="\w+"/>
+						</functionName>
+					</function>
+				</classRange>
+				<function
+					mainExpr="^(export\s+)?function\s+\w+"
+					displayMode="$className->$functionName">
+					<functionName>
+						<nameExpr expr="function\s+\w+"/>
+						<nameExpr expr="\s+\w+"/>
+						<nameExpr expr="\w+"/>
+					</functionName>
+				</function>
+			</parser>
+
+		<!-- </parsers> -->
+	<!-- </functionList> -->
+<!-- </NotepadPlus> -->
