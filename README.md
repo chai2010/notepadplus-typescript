@@ -1,4 +1,4 @@
-# notepad++ support Protobuf (Windows).
+# notepad++ support TypeScript (Windows).
 
 - http://www.typescriptlang.org/
 
