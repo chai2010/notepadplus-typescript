@@ -1,6 +1,7 @@
 # notepad++ support TypeScript (Windows).
 
 - http://www.typescriptlang.org/
+- https://github.com/Microsoft/TypeScript/wiki/TypeScript-Editor-Support
 
 ## Notepad++ syntax highlighting
 
@@ -56,7 +57,7 @@ Installing from Notepad++ zip/7z package
 
 ![](typescript-npp.png)
 
-[simple.ts](test.ts)
+[test.ts](test.ts)
 
 ![](typescript-npp-test.png)
 
