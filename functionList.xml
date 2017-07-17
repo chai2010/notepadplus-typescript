@@ -19,9 +19,9 @@
 						<nameExpr expr="\w+"/>
 					</className>
 					<function
-						mainExpr="(^\s+(readonly|public|private|protected|get|set)\s+\w+\s*(\(|\=|:|\?))|(^\s*\w+\s*(\(|:|\=|\?))">
+						mainExpr="(^\s*((readonly|public|private|protected|get|set)\s+)+\w+\s*(\(|\=|:|\?))|(^\s*\w+\s*(\(|:|\=|\?))">
 						<functionName>
-							<funcNameExpr expr="(^\s+(readonly|public|private|protected|get|set)\s+\w+\s*(\(|\=|:|\?))|(\w+\s*(\(|:|\=|\?))"/>
+							<funcNameExpr expr="(^\s*((readonly|public|private|protected|get|set)\s+)+\w+\s*(\(|\=|:|\?))|(\w+\s*(\(|:|\=|\?))"/>
 							<funcNameExpr expr="(\s+\w+\s*(\(|\=|:|\?))|(\w+\s*(\(|:|\=|\?))"/>
 							<funcNameExpr expr="(\s+\w+\s*(\(|\=|:|\?))|(\w+)"/>
 							<funcNameExpr expr="(\s+\w+)|(\w+)"/>
