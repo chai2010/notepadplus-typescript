@@ -56,9 +56,12 @@ Installing from Notepad++ zip/7z package
 
 ![](typescript-npp.png)
 
+[simple.ts](test.ts)
 
-BUGS
-----
+![](typescript-npp-test.png)
+
+
+## BUGS
 
 Please report bugs to <chaishushan@gmail.com>.
 
