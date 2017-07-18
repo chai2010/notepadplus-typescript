@@ -6,6 +6,28 @@ const fs = require('fs')
 
 import * as fs2 from 'fs'
 
+import {xxx} from 'fs'
+
+namespace Math {
+	export function add(x, y) { ... }
+}
+
+type Maybe<T> = T | void;
+function isDefined<T>(x: Maybe<T>): x is T {
+	return x !== undefined && x !== null;
+}
+
+async function printDelayed(elements: string[]) {
+	for(const element of elements) {
+		await delay(200);
+		console.log(element);
+	}
+}
+
+let symbol = new Symbol();
+let map = new Map();
+let list = new List();
+
 function f1() {}
 function f2(){}
 
