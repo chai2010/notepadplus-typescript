@@ -26,7 +26,14 @@ async function printDelayed(elements: string[]) {
 
 let symbol = new Symbol();
 let map = new Map();
-let list = new List();
+let list: Array<number> = [1, 2, 3];
+let a: any = null
+
+let u: undefined = undefined;
+
+function error(message: string): never {
+    throw new Error(message);
+}
 
 function f1() {}
 function f2(){}
