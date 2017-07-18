@@ -44,6 +44,24 @@ class class4 {
 	foo() {}
 }
 
+function resolveAfter2Seconds(x) {
+	return new Promise(resolve => {
+		setTimeout(() => {
+			resolve(x);
+		}, 2000);
+	});
+}
+
+async function async_f1() {
+	var x = await resolveAfter2Seconds(10);
+	console.log(x); // 10
+}
+
+export async function async_f2() {
+	var x = await resolveAfter2Seconds(10);
+	console.log(x); // 10
+}
+
 global['aa'] = 'aa'
 process.argv
 console.log(1)
