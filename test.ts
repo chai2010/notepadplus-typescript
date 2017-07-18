@@ -72,6 +72,21 @@ class class4 {
 	@f4
 	foo() {}
 }
+export class class5 implements pkg.interfacex {
+	constructor() {
+		//
+	}
+}
+export class class6 extends pkg.classx {
+	constructor() {
+		//
+	}
+}
+export class class7 extends pkg.classx[''] {
+	constructor() {
+		//
+	}
+}
 
 function resolveAfter2Seconds(x) {
 	return new Promise(resolve => {

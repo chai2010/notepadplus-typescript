@@ -8,7 +8,7 @@
 		<!-- <parsers> -->
 			<parser id="typescript" displayName="typescript" commentExpr="((/\*.*?\*)/|(//.*?$))">
 				<classRange
-					mainExpr="^\s*(export\s+)?(class|interface)\s+\w+\s*(extends\s+(\w|\s|,)*)?\{"
+					mainExpr="^\s*(export\s+)?(class|interface)\s+\w+\s*((extends|implements)\s+(\w|\s|,|\.|[^{])*)?\{"
 					openSymbole = "\{"
 					closeSymbole = "\}"
 					displayMode="node">
