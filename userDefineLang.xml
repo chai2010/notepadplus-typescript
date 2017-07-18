@@ -24,9 +24,9 @@
             <Keywords name="Folders in comment, open"></Keywords>
             <Keywords name="Folders in comment, middle"></Keywords>
             <Keywords name="Folders in comment, close"></Keywords>
-            <Keywords name="Keywords1">if else switch do while for in break continue case default return with constructor declare as interface module abstract enum export interface static extends super char final native synchronized class package throws const goto private transient debugger implements protected volatile import public try catch throw finally this let var yield delete new instanceof typeof function contained alert confirm prompt status readonly get set</Keywords>
+            <Keywords name="Keywords1">if else switch do while for in break continue case default return with constructor declare as interface abstract enum export interface static extends super char final native synchronized class package throws const goto private transient debugger implements protected volatile import public try catch throw finally this let var yield delete new instanceof typeof function contained alert confirm prompt status readonly get set</Keywords>
             <Keywords name="Keywords2">any int short boolean byte long float double void string number bool undefined null true false</Keywords>
-            <Keywords name="Keywords3"></Keywords>
+            <Keywords name="Keywords3">global process console setTimeout clearTimeout setInterval clearInterval module exports __filename __dirname require</Keywords>
             <Keywords name="Keywords4">prototype</Keywords>
             <Keywords name="Keywords5"></Keywords>
             <Keywords name="Keywords6"></Keywords>

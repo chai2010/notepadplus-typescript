@@ -2,6 +2,10 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+const fs = require('fs')
+
+import * as fs2 from 'fs'
+
 function f1() {}
 function f2(){}
 
@@ -39,3 +43,19 @@ class class4 {
 	@f4
 	foo() {}
 }
+
+global['aa'] = 'aa'
+process.argv
+console.log(1)
+
+setTimeout()
+clearTimeout()
+setInterval()
+clearInterval()
+
+module
+exports.hello = function(){}
+__filename
+__dirname
+require
+
