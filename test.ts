@@ -39,7 +39,11 @@ function f1() {}
 function f2(){}
 
 export function f3() {}
-export function f4(x: number) {}
+export function f4(x: number) {
+	if(1 == 2) {
+		//
+	}
+}
 
 class class1{}
 
@@ -74,7 +78,32 @@ class class4 {
 }
 export class class5 implements pkg.interfacex {
 	constructor() {
+
+		iffoor()
+
+		// bug
+		foo()
+
+		foo22()
+
+		// bug
+		if(1 == 2) {
+			//
+		}
+
+		for() {}
+		switch() {}
+		forfor()
+
+		// bug
+		let x = {
+			a: 1,
+			b: 2,
+		}
 		//
+	}
+
+	method() {
 	}
 }
 export class class6 extends pkg.classx {
