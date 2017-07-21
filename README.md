@@ -46,6 +46,11 @@ Installing from Notepad++ zip/7z package
      between `<associationMap> ... </associationMap>` and `<parsers> ... </parsers>`
   3. Restart Notepad++
 
+**Notes:**
+
+  1. class/interface's method/property: Indent only support tab/2space/4space, tab/2space is the best choice!
+
+
 **Reference:**
 
   1. http://notepad-plus-plus.org/features/function-list.html
