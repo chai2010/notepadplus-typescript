@@ -135,6 +135,35 @@ export async function async_f2() {
 	console.log(x); // 10
 }
 
+// best: use tab as indent
+interface StringerTab {
+	String(): string
+}
+
+// WARNNING: indent only support tab/2space/4space
+// regexp: ^(\t|[ ]{2,4})
+interface Stringer2space {
+  String(): string
+}
+interface Stringer3space {
+   String(): string
+}
+interface Stringer4space {
+    String(): string
+}
+
+class Stringer2spaceClass {
+  String(): string {
+    // WARNNING: also show in funclist!
+    notMethod()
+  }
+}
+
+// WARNNING: funclist, don't support 1space indent
+interface Stringer1 {
+ String(): string
+}
+
 global['aa'] = 'aa'
 process.argv
 console.log(1)
